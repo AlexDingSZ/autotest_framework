@@ -10,6 +10,7 @@ logger = logger(logger="test_login").getlog()
 @ddt
 class test_login(unittest.TestCase):
     test_account = (("admin","123456","admin"),("admin","123456","admin"),("admin","123456","admin"))
+    from utils.readcsv import get_csv_data
     test_account = get_csv_data(os.path.join(get_parent_path(os.getcwd()),"data","user.csv"))
     @classmethod
     def setUpClass(cls):
