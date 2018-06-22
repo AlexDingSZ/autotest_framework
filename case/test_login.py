@@ -22,7 +22,7 @@ class test_login(unittest.TestCase):
         logger.info("get login name %s" % actual_result)
         logger.info("start checking")
         self.assertEqual(actual_result,expect_reult)
-        logger("start logout...")
+        logger.info("start logout...")
         p_pannel.logout()
 
 

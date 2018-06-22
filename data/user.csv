@@ -1,0 +1,4 @@
+name,pwd,expect
+amdin,123456,sucess
+fail,sdfkdsj,failed
+*((,*&^%$#,failed
