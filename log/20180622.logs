@@ -619,3 +619,186 @@
 2018-06-22 18:20:05,780 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
 2018-06-22 18:20:05,902 - INFO - get login name admin - test_login - line:25
 2018-06-22 18:20:05,902 - INFO - start checking - test_login - line:26
+2018-06-22 19:21:09,316 - INFO - start login - test_login - line:22
+2018-06-22 19:21:09,473 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:21:09,611 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:21:09,803 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:21:09,940 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:21:10,131 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:21:32,304 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:21:32,428 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:21:32,428 - INFO - start checking - test_login - line:26
+2018-06-22 19:21:32,800 - INFO - start login - test_login - line:22
+2018-06-22 19:21:32,817 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:21:32,957 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:21:33,131 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:21:33,267 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:21:33,452 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:21:34,606 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:21:34,726 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:21:34,726 - INFO - start checking - test_login - line:26
+2018-06-22 19:21:35,051 - INFO - start login - test_login - line:22
+2018-06-22 19:21:35,067 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:21:35,208 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:21:35,400 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:21:35,534 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:21:35,723 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:21:36,779 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:21:36,902 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:21:36,902 - INFO - start checking - test_login - line:26
+2018-06-22 19:26:17,176 - INFO - start login - test_login - line:22
+2018-06-22 19:26:17,312 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:26:17,462 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:26:17,656 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:26:17,795 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:26:17,983 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:26:19,483 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:26:19,606 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:26:19,606 - INFO - start checking - test_login - line:26
+2018-06-22 19:26:19,942 - INFO - start login - test_login - line:22
+2018-06-22 19:26:19,959 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:26:20,097 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:26:20,280 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:26:20,414 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:26:20,595 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:26:21,664 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:26:21,787 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:26:21,787 - INFO - start checking - test_login - line:26
+2018-06-22 19:26:22,132 - INFO - start login - test_login - line:22
+2018-06-22 19:26:22,145 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:26:22,286 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:26:22,497 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:26:22,635 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:26:22,815 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:26:23,827 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:26:23,947 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:26:23,947 - INFO - start checking - test_login - line:26
+2018-06-22 19:27:20,582 - INFO - start login - test_login - line:22
+2018-06-22 19:27:20,723 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:27:20,862 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:27:21,055 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:27:21,193 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:27:21,398 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:27:23,094 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:27:23,214 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:27:23,214 - INFO - start checking - test_login - line:26
+2018-06-22 19:28:42,487 - INFO - start login - test_login - line:22
+2018-06-22 19:28:42,639 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:42,782 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:42,986 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:43,125 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:43,302 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:45,031 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:28:45,152 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:28:45,152 - INFO - start checking - test_login - line:26
+2018-06-22 19:28:45,153 - INFO - start logout... - test_login - line:28
+2018-06-22 19:28:45,163 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:28:45,319 - INFO - 第1次查找元素 ('css selector', '#wp-admin-bar-logout > a'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:46,631 - INFO - start login - test_login - line:22
+2018-06-22 19:28:46,644 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:46,796 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:46,968 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:47,102 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:47,273 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:48,384 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:28:48,506 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:28:48,506 - INFO - start checking - test_login - line:26
+2018-06-22 19:28:48,506 - INFO - start logout... - test_login - line:28
+2018-06-22 19:28:48,519 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:28:48,656 - INFO - 第1次查找元素 ('css selector', '#wp-admin-bar-logout > a'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:49,896 - INFO - start login - test_login - line:22
+2018-06-22 19:28:49,926 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:50,070 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:50,248 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:50,390 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:50,579 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:28:51,690 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:28:51,812 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:28:51,812 - INFO - start checking - test_login - line:26
+2018-06-22 19:28:51,812 - INFO - start logout... - test_login - line:28
+2018-06-22 19:28:51,822 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:28:51,961 - INFO - 第1次查找元素 ('css selector', '#wp-admin-bar-logout > a'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:01,851 - INFO - start login - test_login - line:22
+2018-06-22 19:30:01,999 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:02,139 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:02,332 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:02,470 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:02,655 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:04,328 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:30:04,451 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:30:04,451 - INFO - start checking - test_login - line:26
+2018-06-22 19:30:04,451 - INFO - start logout... - test_login - line:28
+2018-06-22 19:30:04,463 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:30:04,625 - INFO - 第1次查找元素 ('css selector', '#wp-admin-bar-logout > a'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:05,580 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:05,724 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:06,259 - INFO - start login - test_login - line:22
+2018-06-22 19:30:06,275 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:06,411 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:06,588 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:06,726 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:06,907 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:08,067 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:30:08,187 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:30:08,188 - INFO - start checking - test_login - line:26
+2018-06-22 19:30:08,188 - INFO - start logout... - test_login - line:28
+2018-06-22 19:30:08,201 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:30:08,335 - INFO - 第1次查找元素 ('css selector', '#wp-admin-bar-logout > a'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:09,184 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:09,321 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:09,858 - INFO - start login - test_login - line:22
+2018-06-22 19:30:09,876 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:10,017 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:10,200 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:10,335 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:10,506 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:11,663 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:30:11,782 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:30:11,782 - INFO - start checking - test_login - line:26
+2018-06-22 19:30:11,783 - INFO - start logout... - test_login - line:28
+2018-06-22 19:30:11,795 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:30:11,934 - INFO - 第1次查找元素 ('css selector', '#wp-admin-bar-logout > a'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:12,809 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:12,944 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:58,460 - INFO - start login - test_login - line:22
+2018-06-22 19:30:58,604 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:58,739 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:58,939 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:59,075 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:30:59,273 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:00,966 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:31:01,087 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:31:01,087 - INFO - start checking - test_login - line:26
+2018-06-22 19:31:01,087 - INFO - start logout... - test_login - line:28
+2018-06-22 19:31:01,098 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:31:01,255 - INFO - 第1次查找元素 ('css selector', '#wp-admin-bar-logout > a'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:02,172 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:02,332 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:02,849 - INFO - start login - test_login - line:22
+2018-06-22 19:31:02,864 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:03,000 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:03,172 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:03,312 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:03,483 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:04,660 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:31:04,780 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:31:04,780 - INFO - start checking - test_login - line:26
+2018-06-22 19:31:04,780 - INFO - start logout... - test_login - line:28
+2018-06-22 19:31:04,792 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:31:04,930 - INFO - 第1次查找元素 ('css selector', '#wp-admin-bar-logout > a'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:05,758 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:05,904 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:06,480 - INFO - start login - test_login - line:22
+2018-06-22 19:31:06,497 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:06,635 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:06,819 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:06,952 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:07,123 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:08,220 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:31:08,343 - INFO - get login name admin - test_login - line:25
+2018-06-22 19:31:08,343 - INFO - start checking - test_login - line:26
+2018-06-22 19:31:08,343 - INFO - start logout... - test_login - line:28
+2018-06-22 19:31:08,375 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 19:31:08,516 - INFO - 第1次查找元素 ('css selector', '#wp-admin-bar-logout > a'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:09,451 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 19:31:09,588 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29

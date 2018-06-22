@@ -11,10 +11,15 @@ class page_login(page_base):
     def __init__(self,driver=None):
         page_base.__init__(self, driver)
 
+    def input_name(self,name):
+        self.wait_element(*self.user_name).clear()
+        self.wait_element(*self.user_name).send_keys(name)
+
     def login(self,name,password):
         self.wait_element(*self.user_name).clear()
         self.wait_element(*self.user_name).send_keys(name)
         self.wait_element(*self.password).clear()
         self.wait_element(*self.password).send_keys(password)
         self.wait_element(*self.btn).click()
+
         return page_pannel(self.driver)

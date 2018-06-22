@@ -20,14 +20,14 @@ class test_login(unittest.TestCase):
     def test_login_pass(self,name,password,expect_reult):
         self.p_login.driver.get("http://autotest/wordpress/wp-login.php")
         logger.info("start login")
-        p_pannel = self.p_login.login("admin","123456")
+        p_pannel = self.p_login.login(name,password)
         actual_result = p_pannel.get_ele_login_name().text
         logger.info("get login name %s" % actual_result)
         logger.info("start checking")
         self.assertEqual(actual_result,expect_reult)
         logger.info("start logout...")
         p_pannel.logout()
-
+        self.p_login.input_name("adfsf")
 
 if __name__ == "__main__":
     unittest.main()

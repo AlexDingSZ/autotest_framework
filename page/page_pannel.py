@@ -19,4 +19,4 @@ class page_pannel(page_base):
         log_btn = self.wait_element(*self.login_name)
         ActionChains(self.driver).move_to_element(log_btn).perform()
         self.wait_element(*self.logout_btn).click()
-        #return page_login(self.driver)
+
