@@ -2,12 +2,15 @@ import unittest
 from page.page_login import page_login
 from utils.logger import logger
 from ddt import ddt,data,unpack
-
+from utils.readcsv import get_csv_data
+from utils.common import get_parent_path
+import os
 logger = logger(logger="test_login").getlog()
 
 @ddt
 class test_login(unittest.TestCase):
     test_account = (("admin","123456","admin"),("admin","123456","admin"),("admin","123456","admin"))
+    test_account = get_csv_data(os.path.join(get_parent_path(os.getcwd()),"data","user.csv"))
     @classmethod
     def setUpClass(cls):
         cls.p_login = page_login()

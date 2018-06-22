@@ -556,3 +556,66 @@
 2018-06-22 17:48:37,924 - INFO - start logout... - test_login - line:25
 2018-06-22 17:48:37,937 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
 2018-06-22 17:48:38,075 - INFO - 第1次查找元素 ('css selector', '#wp-admin-bar-logout > a'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:32,654 - INFO - start login - test_login - line:19
+2018-06-22 17:56:32,799 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:32,939 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:33,141 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:33,276 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:33,465 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:35,206 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 17:56:35,328 - INFO - get login name admin - test_login - line:22
+2018-06-22 17:56:35,328 - INFO - start checking - test_login - line:23
+2018-06-22 17:56:35,328 - INFO - start logout... - test_login - line:25
+2018-06-22 17:56:35,339 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 17:56:35,494 - INFO - 第1次查找元素 ('css selector', '#wp-admin-bar-logout > a'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:36,593 - INFO - start login - test_login - line:19
+2018-06-22 17:56:36,608 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:36,747 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:36,920 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:37,055 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:37,225 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:38,297 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 17:56:38,420 - INFO - get login name admin - test_login - line:22
+2018-06-22 17:56:38,421 - INFO - start checking - test_login - line:23
+2018-06-22 17:56:38,421 - INFO - start logout... - test_login - line:25
+2018-06-22 17:56:38,431 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 17:56:38,569 - INFO - 第1次查找元素 ('css selector', '#wp-admin-bar-logout > a'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:39,625 - INFO - start login - test_login - line:19
+2018-06-22 17:56:39,638 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:39,772 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:39,953 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:40,087 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:40,256 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 17:56:41,276 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 17:56:41,396 - INFO - get login name admin - test_login - line:22
+2018-06-22 17:56:41,396 - INFO - start checking - test_login - line:23
+2018-06-22 17:56:41,396 - INFO - start logout... - test_login - line:25
+2018-06-22 17:56:41,408 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 17:56:41,545 - INFO - 第1次查找元素 ('css selector', '#wp-admin-bar-logout > a'),查找结果 True  - base_page - line:29
+2018-06-22 18:19:59,070 - INFO - start login - test_login - line:22
+2018-06-22 18:19:59,213 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 18:19:59,351 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 18:19:59,543 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 18:19:59,679 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 18:19:59,859 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 18:20:01,405 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 18:20:01,525 - INFO - get login name admin - test_login - line:25
+2018-06-22 18:20:01,525 - INFO - start checking - test_login - line:26
+2018-06-22 18:20:01,892 - INFO - start login - test_login - line:22
+2018-06-22 18:20:01,932 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 18:20:02,067 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 18:20:02,264 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 18:20:02,402 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 18:20:02,579 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 18:20:03,655 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 18:20:03,777 - INFO - get login name admin - test_login - line:25
+2018-06-22 18:20:03,777 - INFO - start checking - test_login - line:26
+2018-06-22 18:20:04,106 - INFO - start login - test_login - line:22
+2018-06-22 18:20:04,130 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 18:20:04,265 - INFO - 第1次查找元素 ('id', 'user_login'),查找结果 True  - base_page - line:29
+2018-06-22 18:20:04,449 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 18:20:04,586 - INFO - 第1次查找元素 ('id', 'user_pass'),查找结果 True  - base_page - line:29
+2018-06-22 18:20:04,761 - INFO - 第1次查找元素 ('id', 'wp-submit'),查找结果 True  - base_page - line:29
+2018-06-22 18:20:05,780 - INFO - 第1次查找元素 ('xpath', "//*[@id='wp-admin-bar-my-account']/a/span"),查找结果 True  - base_page - line:29
+2018-06-22 18:20:05,902 - INFO - get login name admin - test_login - line:25
+2018-06-22 18:20:05,902 - INFO - start checking - test_login - line:26

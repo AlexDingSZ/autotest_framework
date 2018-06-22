@@ -1,4 +1,4 @@
 name,pwd,expect
-amdin,123456,sucess
-fail,sdfkdsj,failed
-*((,*&^%$#,failed
+amdin,123456,amdin
+amdin,123456,amdin
+amdin,123456,amdin
