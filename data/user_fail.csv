@@ -1,0 +1,5 @@
+name,pwd,expect
+,123456,admin
+admin1,,admin1
+adfas,,111
+,sdfdf,111
