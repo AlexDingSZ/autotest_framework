@@ -1,19 +1,11 @@
 
 import unittest
-import sys
-sys.path.append(r"D:\pycode\autotest_framework\base")
-sys.path.append(r"D:\pycode\autotest_framework\case")
-sys.path.append(r"D:\pycode\autotest_framework\base")
-sys.path.append(r"D:\pycode\autotest_framework\page")
-sys.path.append(r"D:\pycode\autotest_framework\data")
-sys.path.append(r"D:\pycode\autotest_framework\utils")
-sys.path.append(r"D:\pycode\autotest_framework\log")
-sys.path.append(r"D:\pycode\autotest_framework\report")
-sys.path.append(r"D:\pycode\autotest_framework")
+
+
 from page.page_login import page_login
 from utils.logger import logger
 from ddt import ddt,data,unpack
-from utils.readcsv import get_csv_data
+
 from utils.common import get_parent_path
 import os
 from utils.readcsv import get_csv_data

@@ -3,23 +3,19 @@ import unittest
 import time
 import os
 import sys
-sys.path.append(r"D:\pycode\autotest_framework\base")
-sys.path.append(r"D:\pycode\autotest_framework\case")
-sys.path.append(r"D:\pycode\autotest_framework\base")
-sys.path.append(r"D:\pycode\autotest_framework\page")
-sys.path.append(r"D:\pycode\autotest_framework\utils")
-sys.path.append(r"D:\pycode\autotest_framework\log")
-sys.path.append(r"D:\pycode\autotest_framework\report")
-sys.path.append(r"D:\pycode\autotest_framework")
+current_directory= os.path.dirname(os.path.abspath(__file__))
+root_path = os.path.abspath(os.path.dirname(current_directory) + os.path.sep + ".")
+sys.path.append(root_path)
 from utils.HTMLTestRunner import HTMLTestRunner
 from utils.logger import logger
 
 logger = logger(logger="test_login").getlog()
+
+
+logger.info("current_file_directory: %s" % current_directory)
+logger.info("root_pathroot_path: %s" % root_path)
 if __name__ == "__main__":
     logger.info("start run test")
-    current_file_path = os.path.dirname(__file__)
-    logger.info("current_file_path:%s" % current_file_path)
-    root_path = os.path.abspath(os.path.dirname(current_file_path) + os.path.sep + ".")
     logger.info("root_path:%s" % root_path)
     case_path = os.path.join(root_path, "case")
     report_path = os.path.join(root_path, "report")
