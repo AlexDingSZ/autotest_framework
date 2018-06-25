@@ -1,4 +1,3 @@
-
 import unittest
 import time
 import os
@@ -6,20 +5,21 @@ import sys
 current_directory = os.path.dirname(os.path.abspath(__file__))
 root_path = os.path.abspath(os.path.dirname(current_directory) + os.path.sep + ".")
 sys.path.append(root_path)
+
 from utils.HTMLTestRunner import HTMLTestRunner
 from utils.logger import logger
 
 logger = logger(logger="test_login").getlog()
 
-
-logger.info("current_file_directory: %s" % current_directory)
-logger.info("root_pathroot_path: %s" % root_path)
 if __name__ == "__main__":
     logger.info("start run test")
     logger.info("root_path:%s" % root_path)
     case_path = os.path.join(root_path, "case")
     report_path = os.path.join(root_path, "report")
     now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
+    current_path = os.getcwd()
+    root_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + ".")
+
     report_path = os.path.join(report_path,"auto_result_"+now+".html")
     logger.info(report_path)
     report_file = open(report_path,"wb")
