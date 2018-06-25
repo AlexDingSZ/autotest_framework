@@ -7,6 +7,7 @@ class page_login(page_base):
     user_name = (By.ID,"user_login")
     password=(By.ID,"user_pass")
     btn = (By.ID,"wp-submit")
+    error_message=(By.ID,"login_error")
 
     def __init__(self,driver=None):
         page_base.__init__(self, driver)
@@ -22,4 +23,11 @@ class page_login(page_base):
         self.wait_element(*self.password).send_keys(password)
         self.wait_element(*self.btn).click()
 
+    def login_pass(self,name,password):
+        self.login(name,password)
         return page_pannel(self.driver)
+
+    def login_fail(self,name,password):
+        self.login(name, password)
+        return  self.wait_element(*self.error_message).text
+

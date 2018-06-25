@@ -2,8 +2,10 @@ from utils.HTMLTestRunner import HTMLTestRunner
 import unittest
 import time
 import os
+import  sys
 
 if __name__ == "__main__":
+    sys.path.append(r"D:\pycode\autotest_framework\utils")
     current_path = os.getcwd()
     root_path = os.path.abspath(os.path.dirname(current_path) + os.path.sep + ".")
     case_path = os.path.join(root_path, "case")
