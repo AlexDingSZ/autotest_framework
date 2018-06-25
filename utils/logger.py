@@ -10,8 +10,10 @@ class logger(object):
         self.logger.setLevel(logging.DEBUG)
         # 创建一个handler，用于写入日志文件
         rq = time.strftime('%Y%m%d', time.localtime(time.time()))
-        log_path = os.path.dirname(os.path.abspath('.')) + '/log/'
-        log_name = log_path + rq + '.logs'
+        #log_path = os.path.dirname(os.path.abspath('.')) + '/log/'
+        log_path=os.path.join(os.path.dirname(os.path.dirname(__file__)),"log")
+        #log_name = log_path + rq + '.logs'
+        log_name = os.path.join(log_path,rq + '.logs')
         fh = logging.FileHandler(log_name,encoding="utf-8")
         fh.setLevel(logging.INFO)
         # 再创建一个handler，用于输出到控制台

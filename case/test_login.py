@@ -1,4 +1,15 @@
+
 import unittest
+import sys
+sys.path.append(r"D:\pycode\autotest_framework\base")
+sys.path.append(r"D:\pycode\autotest_framework\case")
+sys.path.append(r"D:\pycode\autotest_framework\base")
+sys.path.append(r"D:\pycode\autotest_framework\page")
+sys.path.append(r"D:\pycode\autotest_framework\data")
+sys.path.append(r"D:\pycode\autotest_framework\utils")
+sys.path.append(r"D:\pycode\autotest_framework\log")
+sys.path.append(r"D:\pycode\autotest_framework\report")
+sys.path.append(r"D:\pycode\autotest_framework")
 from page.page_login import page_login
 from utils.logger import logger
 from ddt import ddt,data,unpack
@@ -11,8 +22,11 @@ logger = logger(logger="test_login").getlog()
 @ddt
 class test_login(unittest.TestCase):
     test_account = (("admin","123456","admin"),("admin","123456","admin"),("admin","123456","admin"))
-    test_account = get_csv_data(os.path.join(get_parent_path(os.getcwd()),"data","user.csv"))
-    test_account_fail = get_csv_data(os.path.join(get_parent_path(os.getcwd()), "data", "user_fail.csv"))
+    current_path = os.path.dirname(__file__)
+    logger.info("__file__ current_path:%s" % current_path)
+    test_account = get_csv_data(os.path.join(get_parent_path(current_path),"data","user.csv"))
+    logger.info("test_account:%s" % test_account)
+    test_account_fail = get_csv_data(os.path.join(get_parent_path(current_path), "data", "user_fail.csv"))
     @classmethod
     def setUpClass(cls):
         cls.p_login = page_login()
@@ -21,7 +35,7 @@ class test_login(unittest.TestCase):
     @unpack
     def test_login_pass(self,name,password,expect_reult):
         self.p_login.driver.get("http://autotest/wordpress/wp-login.php")
-        logger.info("start login")
+        logger.info("start login,acount:%s,password:%s" % (name,password))
         p_pannel = self.p_login.login_pass(name,password)
         actual_result = p_pannel.get_ele_login_name().text
         logger.info("get login name %s" % actual_result)
@@ -37,7 +51,6 @@ class test_login(unittest.TestCase):
         self.p_login.driver.get("http://autotest/wordpress/wp-login.php")
         logger.info("start login")
         self.p_login.login_fail(name,password)
-
 
 
 if __name__ == "__main__":
