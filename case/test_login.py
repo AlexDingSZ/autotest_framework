@@ -26,7 +26,7 @@ class test_login(unittest.TestCase):
     @data(*test_account)
     @unpack
     def test_login_pass(self,name,password,expect_reult):
-        self.p_login.driver.get("http://autotest/wordpress/wp-login.php")
+        self.p_login.driver.get("http://localhost/wordpress/wp-login.php")
         logger.info("start login,acount:%s,password:%s" % (name,password))
         p_pannel = self.p_login.login_pass(name,password)
         actual_result = p_pannel.get_ele_login_name().text
